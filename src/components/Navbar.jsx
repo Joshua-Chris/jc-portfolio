@@ -10,23 +10,20 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-900 text-gray-300'>
         <div>
-            <img src={Logo} alt="Logo"/>
+            <Link to="home" className='cursor-pointer' smooth={true} duration={500}><img src={Logo} alt="Logo"/></Link>
         </div>
         {/* Main menu */}
         <ul className='hidden md:flex'>
             <li>
-                <Link to="home" smooth={true} duration={500}>Home</Link>
-            </li>
-            <li>
-                <Link to="about" smooth={true} duration={500}>About</Link>
+                <Link to="home" smooth={true} duration={500}>About</Link>
             </li>
             <li>
                 <Link to="skills" smooth={true} duration={500}>Skills</Link>
             </li>
             <li>
-                <Link to="work" smooth={true} duration={500}>Work</Link>
+                <Link to="projects" smooth={true} duration={500}>Projects</Link>
             </li>
             <li>
                 <Link to="contact" smooth={true} duration={500}>Contact</Link>
@@ -34,21 +31,18 @@ const Navbar = () => {
         </ul>
         {/* Hamburger */}
         <div onClick={handleClick} className="md:hidden z-10">
-            {!nav ? <FaBars /> : <FaTimes />}
+            {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
         </div>
         {/* Mobile menu */}
-        <ul className={!nav ? 'hidden' : 'absolute top-6 left-8 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+        <ul className={!nav ? 'hidden' : 'absolute top-20 w-full h-screen md:hidden bg-gray-900 flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link>
-            </li>
-            <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link>
             </li>
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="work" smooth={true} duration={500}>Work</Link>
+                <Link onClick={handleClick} to="projects" smooth={true} duration={500}>Projects</Link>
             </li>
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contact</Link>

@@ -1,20 +1,22 @@
-import About from "./components/About"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import Skills from "./components/Skills"
-import Work from "./components/Work"
+import Projects from "./components/Projects"
 import Contact from "./components/Contact"
+import MobileSocials from "./components/MobileSocials"
 
 
 function App() {
   return (
-    <div>
+    <div className="bg-gray-900">
       <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
+      <div className="px-3">
+        <MobileSocials />
+        <Home />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   )
 }
