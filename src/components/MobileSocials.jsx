@@ -4,6 +4,7 @@ import { BiAnalyse } from "react-icons/bi";
 import {FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import { Link } from 'react-scroll';
 
 
 const MobileSocials = () => {
@@ -22,25 +23,24 @@ const MobileSocials = () => {
             <ul>
                 <li className='w-[45px] h-[50px] flex justify-center items-center mr-7 hover:my-2 duration-300 bg-blue-600 rounded-xl my-1'>
                     <a className='flex flex-col text-[9px] font-bold justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="https://www.linkedin.com/in/joshua-chris-ofurunna/" target="_blank" rel="noreferrer">
                         LinkedIn <FaLinkedin size={30}/>
                     </a>
                 </li>
                 <li className='w-[45px] h-[50px] flex justify-center items-center mr-7 hover:my-2 duration-300 bg-slate-900 rounded-xl my-1'>
                     <a className='flex flex-col text-[9px] font-bold justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="https://github.com/Joshua-Chris" target="_blank" rel="noreferrer">
                         GitHub <FaGithub size={30}/>
                     </a>
                 </li>
                 <li className='w-[45px] h-[50px] flex justify-center items-center mr-7 hover:my-2 duration-300 bg-red-600 rounded-xl my-1'>
-                    <a className='flex flex-col text-[9px] font-bold justify-between items-center w-full text-gray-300'
-                    href="/">
+                    <Link to="contact" className='flex flex-col text-[9px] font-bold justify-between items-center w-full text-gray-300'>
                         Email <HiOutlineMail size={30}/>
-                    </a>
+                    </Link>
                 </li>
                 <li className='w-[45px] h-[50px] flex justify-center items-center mr-7 hover:my-2 duration-300 bg-gray-500 rounded-xl my-1'>
                     <a className='flex flex-col text-[9px] font-bold justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="https://drive.google.com/file/d/1uAAzRcJzquleKS0nNhQ4mkDFBJNS1C8W/view?usp=sharing" target="_blank" rel="noreferrer">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

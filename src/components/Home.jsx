@@ -13,7 +13,7 @@ const Home = () => {
             interfaces and experiences, using JavaScript and ReactJs
           </p>
           <p className='text-[#8892b0] py-4 max-w-700px text-sm'>
-          During my first internship, I realized I loved coding. Sitting in front of my computer for several hours coding, debugging, developing, testing, and learning new things always felt like breathing in a remarkably fulfilling way. From then, I knew software development was for me. I delight in hitting and surpassing set goals!
+          Sitting in front of my computer for several hours coding, debugging, developing, testing, and learning new things always feels like breathing in a remarkably fulfilling way. I delight in hitting and surpassing set goals!
           </p>
           <div>
             <Link to="projects" smooth={true} duration={200}>
