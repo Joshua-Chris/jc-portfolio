@@ -1,5 +1,5 @@
 import React from 'react';
-import Project1 from '../assets/codexProject.PNG';
+import Project1 from '../assets/project1.PNG';
 import Project2 from '../assets/REA.png';
 
 const Work = () => {
