@@ -1,10 +1,10 @@
 import React from 'react';
 import Project1 from '../assets/project1.PNG';
 import Project2 from '../assets/REA.png';
-import dignity from '../assets/dignity.JPG';
-import author from '../assets/author.JPG';
-import noxyl from '../assets/noxyl.JPG';
-import bartek from '../assets/bartek.JPG';
+import dignity from '../assets/dignity1.JPG';
+import author from '../assets/author1.JPG';
+import noxyl from '../assets/noxyl1.JPG';
+import bartek from '../assets/bartek1.JPG';
 
 const Work = () => {
   return (
