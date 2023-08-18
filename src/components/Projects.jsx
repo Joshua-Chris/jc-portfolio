@@ -21,7 +21,7 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 gap-4 sm:pb-8">
 
           {/* Grid Item - dignity-project */}
           <div
