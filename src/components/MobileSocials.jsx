@@ -40,7 +40,7 @@ const MobileSocials = () => {
                 </li>
                 <li className='w-[45px] h-[50px] flex justify-center items-center mr-7 hover:my-2 duration-300 bg-gray-500 rounded-xl my-1'>
                     <a className='flex flex-col text-[9px] font-bold justify-between items-center w-full text-gray-300'
-                    href="https://drive.google.com/file/d/1L2vTXWPa7EXoSC6jbMBN2YgxQPnJ-dbZ/view?usp=drive_link" target="_blank" rel="noreferrer">
+                    href="https://drive.google.com/file/d/1IE_j1pLtU2uB3otfxAvT48G66VoE1lzG/view?usp=drive_link" target="_blank" rel="noreferrer">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>
