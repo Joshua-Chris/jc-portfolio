@@ -5,6 +5,8 @@ import dignity from '../assets/dignity1.JPG';
 import author from '../assets/author1.JPG';
 import noxyl from '../assets/noxyl1.JPG';
 import bartek from '../assets/bartek1.JPG';
+import primeReserved from '../assets/primereserved.png';
+import houvincity from '../assets/houvincity.png';
 
 const Work = () => {
   return (
@@ -15,23 +17,24 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="pt-8 text-4xl font-bold inline border-b-4 text-gray-300 border-blue-600">
-            Projects
+            Coded Projects
           </p>
-          <p className="py-6">A list of some of my projects</p>
+          <p className="py-6">React | Next.js | TypeScript | JavaScript | Tailwind CSS | Sanity.io | MongoDB | Git & GitHub | Netlify/Vercel, ETC</p>
         </div>
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 gap-4 sm:pb-8">
 
-          {/* Grid Item - dignity-project */}
+        
+          {/* Grid Item - PrimeReserved Website Project */}
           <div
-            style={{ backgroundImage: `url(${dignity})` }}
+            style={{ backgroundImage: `url(${primeReserved})` }}
             className="h-[15rem] bg-no-repeat bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-40 group-hover:opacity-100 group-hover:bg-gray-500">
               <div className="bg-gray-800 border-orange-500 border-4 text-center rounded-lg">
-                <a href="https://dignityandrespects.com/">
+                <a href="jade-puppy-9a62b0.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Visit Website
                   </button>
@@ -40,32 +43,16 @@ const Work = () => {
             </div>
           </div>
 
-          {/* Grid Item - author-project */}
-          <div
-            style={{ backgroundImage: `url(${author})` }}
-            className="h-[15rem] bg-no-repeat bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-40 group-hover:opacity-100 group-hover:bg-gray-500">
-              <div className="bg-gray-800 border-orange-500 border-4 text-center rounded-lg">
-                <a href="https://authorenergy.com/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Visit Website
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
 
-          {/* Grid Item - noxyl-project */}
+          {/* Grid Item - Houvincity Web App Project */}
           <div
-            style={{ backgroundImage: `url(${noxyl})` }}
+            style={{ backgroundImage: `url(${houvincity})` }}
             className="h-[15rem] bg-no-repeat bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-40 group-hover:opacity-100 group-hover:bg-gray-500">
               <div className="bg-gray-800 border-orange-500 border-4 text-center rounded-lg">
-                <a href="https://noxylprimegloballimited.com/">
+                <a href="https://houvincity.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Visit Website
                   </button>
@@ -73,24 +60,6 @@ const Work = () => {
               </div>
             </div>
           </div>
-
-          {/* Grid Item - bartek-project */}
-          <div
-            style={{ backgroundImage: `url(${bartek})` }}
-            className="h-[15rem] bg-no-repeat bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-40 group-hover:opacity-100 group-hover:bg-gray-500">
-              <div className="bg-gray-800 border-orange-500 border-4 text-center rounded-lg">
-                <a href="https://bartekglobalenergyservices.com/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Visit Website
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          
           
           {/* Grid Item */}
           <div
@@ -135,6 +104,49 @@ const Work = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="py-8">
+          <p className="pt-8 text-4xl font-bold inline border-b-4 text-gray-300 border-blue-600">
+            WordPress Projects
+          </p>
+          <p className="py-6">WordPress CMS | Elementor, ETC</p>
+        </div>
+        {/* Grid Item - author-project */}
+          <div
+            style={{ backgroundImage: `url(${author})` }}
+            className="h-[15rem] bg-no-repeat bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-40 group-hover:opacity-100 group-hover:bg-gray-500">
+              <div className="bg-gray-800 border-orange-500 border-4 text-center rounded-lg">
+                <a href="https://authorenergy.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Visit Website
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item - noxyl-project */}
+          <div
+            style={{ backgroundImage: `url(${noxyl})` }}
+            className="h-[15rem] bg-no-repeat bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-40 group-hover:opacity-100 group-hover:bg-gray-500">
+              <div className="bg-gray-800 border-orange-500 border-4 text-center rounded-lg">
+                <a href="https://noxylprimegloballimited.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Visit Website
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          
       </div>
     </div>
   );
