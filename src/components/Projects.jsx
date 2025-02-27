@@ -34,7 +34,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-40 group-hover:opacity-100 group-hover:bg-gray-500">
               <div className="bg-gray-800 border-orange-500 border-4 text-center rounded-lg">
-                <a href="jade-puppy-9a62b0.netlify.app">
+                <a href="https://jade-puppy-9a62b0.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Visit Website
                   </button>
