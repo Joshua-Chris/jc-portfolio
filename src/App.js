@@ -2,6 +2,7 @@ import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
+import ProjectsWp from "./components/ProjectsWp"
 import Contact from "./components/Contact"
 import MobileSocials from "./components/MobileSocials"
 
@@ -15,6 +16,7 @@ function App() {
         <Home />
         <Skills />
         <Projects />
+        <ProjectsWp />
         <Contact />
       </div>
     </div>
