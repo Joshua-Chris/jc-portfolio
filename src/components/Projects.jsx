@@ -102,51 +102,8 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="py-8">
-          <p className="pt-8 text-4xl font-bold inline border-b-4 text-gray-300 border-blue-600">
-            WordPress Projects
-          </p>
-          <p className="py-6">WordPress CMS | Elementor, ETC</p>
-        </div>
-        {/* Grid Item - author-project */}
-          <div
-            style={{ backgroundImage: `url(${author})` }}
-            className="h-[15rem] bg-no-repeat bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-40 group-hover:opacity-100 group-hover:bg-gray-500">
-              <div className="bg-gray-800 border-orange-500 border-4 text-center rounded-lg">
-                <a href="https://authorenergy.com/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Visit Website
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Grid Item - noxyl-project */}
-          <div
-            style={{ backgroundImage: `url(${noxyl})` }}
-            className="h-[15rem] bg-no-repeat bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-40 group-hover:opacity-100 group-hover:bg-gray-500">
-              <div className="bg-gray-800 border-orange-500 border-4 text-center rounded-lg">
-                <a href="https://noxylprimegloballimited.com/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Visit Website
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          
+          </div>        
+      </div>        
       </div>
     </div>
   );
