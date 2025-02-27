@@ -52,6 +52,7 @@ const WorkWp = () => {
                 </a>
               </div>
             </div>
+          </div>
           
           {/* Grid Item - Jomas Dental Clinic WordPress Website */}
           <div
